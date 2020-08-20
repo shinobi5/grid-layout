@@ -15,13 +15,13 @@
 ```html
   <head>
     <script 
-      src="https://unpkg.com/@shinobi5/layout-component@0.1.0/lib/grid-layout.js" 
+      src="https://unpkg.com/@shinobi5/grid-layout@0.1.0/lib/grid-layout.js" 
       defer 
     ></script>
   </head>
   <body>
     <main>
-      <layout-component 
+      <grid-layout 
         breakpoints="400px, 800px, 1200px"
         space="5px, 10px, 20px, 40px" 
         cols="1, 2, 3, 4" 
@@ -34,7 +34,7 @@
         <div>item 2</div>
         <div>item 3</div>
         <div>item 4</div>
-      </layout-component>
+      </grid-layout>
     </main>  
   </body>
 ```
@@ -46,7 +46,7 @@
 
 > As this component is still a `v0` version there's a good chance this API will change as I start to use the component and discover improvements that are needed. Consider this API unstable at this stage
 
-Options are set via attributes on the `<layout-component>`. HTML attributes can only accept a single type: `String`.
+Options are set via attributes on the `<grid-layout>`. HTML attributes can only accept a single type: `String`.
 
 **Note**: for attributes that accept a list of values applied at each `breakpoint`, the **first value** in the list is the initial value (the value applied before the first `breakpoint`)
 
