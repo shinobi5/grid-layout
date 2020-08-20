@@ -15,7 +15,7 @@
 ```html
   <head>
     <script 
-      src="https://unpkg.com/@shinobi5/grid-layout@0.1.0/lib/grid-layout.js" 
+      src="https://unpkg.com/@shinobi5/grid-layout@0.1.1/lib/grid-layout.js" 
       defer 
     ></script>
   </head>
