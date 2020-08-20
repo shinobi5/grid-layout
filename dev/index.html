@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Grid Layout</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      :root {
+        --grid-space-small: 20px;
+        --grid-space-medium: 50px;
+        --grid-large: 100px;
+      }      
+      .item {
+        background-color: aqua;
+        padding: 40px;
+        font-weight: 700;
+      }
+      .item:nth-child(2n) {
+        background-color: rebeccapurple;
+        color: white;
+      }
+    </style>
+    <script defer src="grid-layout.js"></script>
+  </head>
+  <body>
+    <main>
+      <grid-layout 
+        breakpoints="400px, 1200px"
+        space="10px, 50px, 20px" 
+        cols="2" 
+        col="2fr"
+      >
+        <div class="item">item 1</div>
+        <div class="item">item 2</div>
+        <div class="item">item 3</div>
+        <div class="item">item 4</div>
+        <div class="item">item 5</div>
+        <div class="item">item 6</div>
+        <div class="item">item 7</div>
+        <div class="item">item 8</div>
+      </grid-layout>
+    </main>  
+  </body>
+</html>

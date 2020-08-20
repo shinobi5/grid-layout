@@ -1,0 +1,31 @@
+{
+  "name": "@shinobi5/grid-layout",
+  "version": "0.1.2",
+  "description": "Web component for CSS layout with zero dependencies",
+  "main": "lib/grid-layout.js",
+  "module": "lib/grid-layout.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "release": "vr build && npm publish --access public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shinobi5/grid-layout.git"
+  },
+  "keywords": [
+    "web components",
+    "css",
+    "grid",
+    "layout",
+    "custom",
+    "element"
+  ],
+  "author": "David White",
+  "bugs": {
+    "url": "https://github.com/shinobi5/grid-layout/issues"
+  },
+  "homepage": "https://github.com/shinobi5/grid-layout#readme"
+}
