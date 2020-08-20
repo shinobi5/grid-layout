@@ -1,6 +1,6 @@
 {
   "name": "@shinobi5/grid-layout",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Web component for CSS layout with zero dependencies",
   "main": "lib/grid-layout.js",
   "module": "lib/grid-layout.js",
