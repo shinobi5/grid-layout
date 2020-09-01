@@ -44,9 +44,9 @@
 
 ## API
 
-> As this component is still a `v0` version there's a good chance this API will change as I start to use the component and discover improvements that are needed. Consider this API unstable at this stage
+> There's a good chance this API will change as I start to use the component and discover improvements that are needed. Consider this API unstable at this stage
 
-Options are set via attributes on the `<grid-layout>`. HTML attributes can only accept a single type: `String`.
+Options are set via attributes on the `<grid-layout>`. HTML attributes can only accept a single type: `String`. It's also possible to set the attribute via JS e.g. `gridLayout.setAttribute('space', '50px')`.
 
 **Note**: for attributes that accept a list of values applied at each `breakpoint`, the **first value** in the list is the initial value (the value applied before the first `breakpoint`)
 
