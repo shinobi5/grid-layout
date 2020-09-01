@@ -1,6 +1,6 @@
 <h1 align="center">:spider_web: Grid Layout</h1>
 
-<p align="center">Web component for <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout">CSS grid layout</a> (zero dependencies).</p>
+<p align="center">Web component for <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout">CSS grid layout</a> with zero dependencies.</p>
 
 <p align="center">
   <a href="https://opensource.org/licenses/MIT">
