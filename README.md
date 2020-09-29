@@ -39,9 +39,6 @@
   </body>
 ```
 
-<br />
-
-
 ## API
 
 > There's a good chance this API will change as I start to use the component and discover improvements that are needed. Consider this API unstable at this stage
@@ -60,12 +57,8 @@ Options are set via attributes on the `<grid-layout>`. HTML attributes can only 
 | `rowsrange`| String | A comma separated list of values passed to [minmax](https://developer.mozilla.org/en-US/docs/Web/CSS/minmax) for [grid-auto-columns](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-columns)
 | `space`| String | A comma separated list of [gap](https://developer.mozilla.org/en-US/docs/Web/CSS/gap) values at each `breakpoint`
 
-<br />
-
 ## Browser support
 Layout component uses the [shadowDOM](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM) to encapsulate the styles and [CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) for the container properties. This means no support for IE11.
-
-<br />
 
 ## Development
 > Project requires [deno](https://deno.land/) and [velociraptor](https://github.com/umbopepato/velociraptor/) to be installed
